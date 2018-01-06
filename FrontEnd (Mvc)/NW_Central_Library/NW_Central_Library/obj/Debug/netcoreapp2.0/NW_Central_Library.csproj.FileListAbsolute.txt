@@ -1,0 +1,11 @@
+D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\bin\Debug\netcoreapp2.0\NW_Central_Library.deps.json
+D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\bin\Debug\netcoreapp2.0\NW_Central_Library.runtimeconfig.json
+D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\bin\Debug\netcoreapp2.0\NW_Central_Library.runtimeconfig.dev.json
+D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\bin\Debug\netcoreapp2.0\NW_Central_Library.dll
+D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\bin\Debug\netcoreapp2.0\NW_Central_Library.pdb
+D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.csprojResolveAssemblyReference.cache
+D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.csproj.CoreCompileInputs.cache
+D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.AssemblyInfoInputs.cache
+D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.AssemblyInfo.cs
+D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.dll
+D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.pdb
