@@ -12534,7 +12534,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Eolsu\\.nuget\\packages\\": {},
+    "C:\\Users\\leahn\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12543,18 +12544,20 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\School Projects\\CoderCamps\\Projects\\newFinalProject\\Api\\LipProject_Api\\LipProject_Api.csproj",
+      "projectUniqueName": "C:\\Projects_2017\\NewFinalProject\\Api\\LipProject_Api\\LipProject_Api.csproj",
       "projectName": "LipProject_Api",
-      "projectPath": "D:\\School Projects\\CoderCamps\\Projects\\newFinalProject\\Api\\LipProject_Api\\LipProject_Api.csproj",
-      "packagesPath": "C:\\Users\\Eolsu\\.nuget\\packages\\",
-      "outputPath": "D:\\School Projects\\CoderCamps\\Projects\\newFinalProject\\Api\\LipProject_Api\\obj\\",
+      "projectPath": "C:\\Projects_2017\\NewFinalProject\\Api\\LipProject_Api\\LipProject_Api.csproj",
+      "packagesPath": "C:\\Users\\leahn\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects_2017\\NewFinalProject\\Api\\LipProject_Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Eolsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\leahn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12577,14 +12580,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.3"
+            "version": "[2.0.3, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           }
         },
         "imports": [
