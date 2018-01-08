@@ -10,3 +10,15 @@ D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd (Security Mvc)\N
 D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.AssemblyInfo.cs
 D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.dll
 D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.pdb
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.dll
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.pdb
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\bin\Debug\netcoreapp2.0\NW_Central_Library.deps.json
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\bin\Debug\netcoreapp2.0\NW_Central_Library.runtimeconfig.json
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\bin\Debug\netcoreapp2.0\NW_Central_Library.runtimeconfig.dev.json
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\bin\Debug\netcoreapp2.0\NW_Central_Library.dll
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\bin\Debug\netcoreapp2.0\NW_Central_Library.pdb
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.csprojResolveAssemblyReference.cache
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.csproj.CoreCompileInputs.cache
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.AssemblyInfoInputs.cache
+C:\Projects_2017\NewFinalProject\FrontEnd (Security Mvc)\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.AssemblyInfo.cs

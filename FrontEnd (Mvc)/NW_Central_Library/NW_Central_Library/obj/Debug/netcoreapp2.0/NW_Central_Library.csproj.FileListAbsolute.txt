@@ -9,3 +9,5 @@ D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Libra
 D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.AssemblyInfo.cs
 D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.dll
 D:\School Projects\CoderCamps\Projects\newFinalProject\FrontEnd\NW_Central_Library\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.pdb
+C:\Projects_2017\NewFinalProject\FrontEnd (Mvc)\NW_Central_Library\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.dll
+C:\Projects_2017\NewFinalProject\FrontEnd (Mvc)\NW_Central_Library\NW_Central_Library\obj\Debug\netcoreapp2.0\NW_Central_Library.pdb
