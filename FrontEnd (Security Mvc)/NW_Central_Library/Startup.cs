@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NW_Central_Library.Data;
 using NW_Central_Library.Models;
+using NW_Central_Library.Models.LibraryModels;
 using NW_Central_Library.Services;
 
 namespace NW_Central_Library
@@ -27,7 +28,11 @@ namespace NW_Central_Library
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("SecurityConnection")));
+
+            services.AddDbContext<LibProjectContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
+
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
