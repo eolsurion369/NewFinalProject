@@ -1,11 +1,13 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using NW_Central_Library.Models.LibraryModels;
 
-namespace NW_Central_Library.LibraryModels
+namespace NW_Central_Library.Data
 {
     public partial class LibProjectContext : DbContext
     {
+        public virtual DbSet<About> About { get; set; }
         public virtual DbSet<Address> Address { get; set; }
         public virtual DbSet<AddrType> AddrType { get; set; }
         public virtual DbSet<AdultMember> AdultMember { get; set; }
@@ -14,7 +16,6 @@ namespace NW_Central_Library.LibraryModels
         public virtual DbSet<Email> Email { get; set; }
         public virtual DbSet<Genre> Genre { get; set; }
         public virtual DbSet<JuvenileMember> JuvenileMember { get; set; }
-        public virtual DbSet<LibraryLogin> LibraryLogin { get; set; }
         public virtual DbSet<Media> Media { get; set; }
         public virtual DbSet<MediaContent> MediaContent { get; set; }
         public virtual DbSet<MediaCopy> MediaCopy { get; set; }
@@ -33,6 +34,19 @@ namespace NW_Central_Library.LibraryModels
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<About>(entity =>
+            {
+                entity.Property(e => e.LibraryDesc)
+                    .IsRequired()
+                    .HasMaxLength(2000)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.LibraryName)
+                    .IsRequired()
+                    .HasMaxLength(60)
+                    .IsUnicode(false);
+            });
+
             modelBuilder.Entity<Address>(entity =>
             {
                 entity.Property(e => e.Id).HasColumnName("ID");
@@ -233,31 +247,6 @@ namespace NW_Central_Library.LibraryModels
                     .HasForeignKey(d => d.AdultId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_JuvenileMember_AdultMember");
-            });
-
-            modelBuilder.Entity<LibraryLogin>(entity =>
-            {
-                entity.HasKey(e => e.UserId);
-
-                entity.Property(e => e.UserId)
-                    .HasColumnName("UserID")
-                    .HasMaxLength(30)
-                    .IsUnicode(false)
-                    .ValueGeneratedNever();
-
-                entity.Property(e => e.PwexpirationDate)
-                    .HasColumnName("PWExpirationDate")
-                    .HasColumnType("date");
-
-                entity.Property(e => e.PwupdateDate)
-                    .HasColumnName("PWUpdateDate")
-                    .HasColumnType("date");
-
-                entity.Property(e => e.UserPw)
-                    .IsRequired()
-                    .HasColumnName("UserPW")
-                    .HasMaxLength(30)
-                    .IsUnicode(false);
             });
 
             modelBuilder.Entity<Media>(entity =>

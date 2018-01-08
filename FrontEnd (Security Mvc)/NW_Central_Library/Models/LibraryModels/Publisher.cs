@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace NW_Central_Library.LibraryModels
+namespace NW_Central_Library.Models.LibraryModels
 {
-    public partial class Series
+    public partial class Publisher
     {
-        public Series()
+        public Publisher()
         {
             Media = new HashSet<Media>();
         }
